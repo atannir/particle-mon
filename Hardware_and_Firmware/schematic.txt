@@ -1,0 +1,19 @@
+This will be done in cadubi because Fritzing is having a few issues on Raspbian
+
+
+Breadboard
+
+Particle Photon
+
+BMP180 Temperature and Pressure sensor
+
+DHT11 Humidity and Temperature sensor
+
+CdS photocell
+
+Hookup wires
+
+Small square of electrical tape
+
+
+
