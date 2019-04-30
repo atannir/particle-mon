@@ -15,5 +15,9 @@ Hookup wires
 
 Small square of electrical tape
 
+1 8.2K resistor (or similar)
+
+1 10K resistor
+
 
 

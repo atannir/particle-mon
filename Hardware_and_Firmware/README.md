@@ -4,6 +4,7 @@
 * DHT11 Temperature / Humidity sensor
 * CdS photocell (unknown resistance)
 * 10K resistor
+* 8.2K resistor (or similar)
 * Assorted jumper wires (pin to pin)
 * Small breadboard
 
