@@ -20,4 +20,10 @@ Small square of electrical tape
 1 10K resistor
 
 
+With the USB port on the Particle Photon board at the top, pin 1 is at top left, which provides 5V.
 
+Pin 1 will be connected to Vin for the BMP180.
+Pin 2 is ground and will be connected to GND pin for the BMP180 (next to Vin).
+Pin 2 is also connected with the 8.2K resistor to pin 7.
+Pin 7 is also connected with the photoresistor to pin 24 (3.3V, top right).
+(To be continued.)
