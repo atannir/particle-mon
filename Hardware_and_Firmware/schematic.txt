@@ -5,9 +5,9 @@ Breadboard
 
 Particle Photon
 
-BMP180 Temperature and Pressure sensor
+BMP180 Temperature and Pressure sensor with breakout board (4 pins)
 
-DHT11 Humidity and Temperature sensor
+DHT11 Humidity and Temperature sensor (3 pin version preferred, 4 pin has one unused connection)
 
 CdS photocell
 
@@ -26,4 +26,5 @@ Pin 1 will be connected to Vin for the BMP180.
 Pin 2 is ground and will be connected to GND pin for the BMP180 (next to Vin).
 Pin 2 is also connected with the 8.2K resistor to pin 7.
 Pin 7 is also connected with the photoresistor to pin 24 (3.3V, top right).
+Pin 13 (SDA) and pin 14 (SCL) are connected to the SCL and SDA pins on the BMP180 breakout board.
 (To be continued.)
