@@ -13,7 +13,7 @@ CdS photocell
 
 Hookup wires
 
-Small square of electrical tape
+Small square (or less) of electrical tape
 
 1 8.2K resistor (or similar)
 
@@ -28,3 +28,5 @@ Pin 2 is also connected with the 8.2K resistor to pin 7.
 Pin 7 is also connected with the photoresistor to pin 24 (3.3V, top right).
 Pin 13 (SDA) and pin 14 (SCL) are connected to the SCL and SDA pins on the BMP180 breakout board.
 (To be continued.)
+
+Place the electrical tape under the CdS photocell to reduce the noise from the SMD RGB LED on the Particle Photon which will affect readings.

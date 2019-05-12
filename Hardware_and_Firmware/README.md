@@ -16,4 +16,6 @@
 # Additional Steps
 * Set up a webhook in the Particle console with the name of the event that you publish in the firmware .ino file
 * The webhook will point to the URL of the script that will store and process the events from the device.
+* Webhook tutorial here: https://docs.particle.io/tutorials/device-cloud/webhooks/
+* Webhook reference here: https://docs.particle.io/reference/device-cloud/webhooks/
 * See the next folder in the sequence for more information on that step.
