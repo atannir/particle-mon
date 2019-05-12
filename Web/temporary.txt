@@ -1,0 +1,1 @@
+stdClass\sObject\n\(\n\s+\[event\]\s\=\>\sFUBAR-status\n\s+\[data\]\s\=\>\s(.+)\n\s+\[published_at\]\s\=\>\s(.+)\n\s+\[coreid\]\s\=\>\s(.+)\n\)
