@@ -1,1 +1,36 @@
-stdClass\sObject\n\(\n\s+\[event\]\s\=\>\sFUBAR-status\n\s+\[data\]\s\=\>\s(.+)\n\s+\[published_at\]\s\=\>\s(.+)\n\s+\[coreid\]\s\=\>\s(.+)\n\)
+stdClass\sObject\n\(\n\s+\[event\]\s\=\>\sEvent-Name\n\s+\[data\]\s\=\>\s(.+)\n\s+\[published_at\]\s\=\>\s(.+)\n\s+\[coreid\]\s\=\>\s(.+)\n\)
+
+This regexp should match all the fields that we want.
+
+Rough outline of the logic for preprocessing the existing file:
+Open existing log file
+Parse each group of lines to get a complete record
+Calculate the row data to insert (including the convenience of day of week, day of month, hour, minute, etc)
+Insert into SQLite database until no more lines
+
+Rough outline of logic for parsing incoming records:
+Take JSON POST data and validate
+Calculate convenience data
+Insert into database
+
+
+Database schema:
+Timestamp (unique)
+Year
+Month
+Day of month
+Day of week
+Hour
+Minute
+Second (?)
+Humidity
+Temperature DHT
+Temperature BMP
+Light
+
+
+Some graph ideas:
+
+Utilization by hour during the last month (might look a little like the Github activity graph)
+Percent active (light meter) over past 24 hours, 7 days, 30 days (Likely a pie chart for total, or wedges by minute)
+Line graph for light levels, humidity, temperature, pressure
